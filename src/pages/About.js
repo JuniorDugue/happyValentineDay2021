@@ -2,14 +2,14 @@ import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
-const Home = () => {
+const About = () => {
   return (
     <div>
       <Header />
       <Hero />
-      <h2>Hola!</h2>
+      <h2>About</h2>
     </div>
   );
 };
 
-export default Home;
+export default About;
