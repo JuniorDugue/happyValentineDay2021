@@ -1,5 +1,13 @@
-## xd demo
-![](xd.gif)
+## Tech used
+[React JS]('https://reactjs.org/')
+[Framer Motion]('https://www.framer.com/motion/')
+[Styled Components]('https://styled-components.com/')
+[React Router DOM]('https://reactrouter.com/web/guides/quick-start')
+
+## preview of site
+![](happyvalentine2021.gif)
+
+---
 
 # Getting Started with Create React App
 
