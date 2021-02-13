@@ -51,7 +51,7 @@ const Hero = ({ image, title, description }) => {
       <Container>
         <h1>{title}</h1>
         <p>{description}</p>
-        <button>Learn more</button>
+        <button>Spread Love</button>
       </Container>
     </Section>
   );

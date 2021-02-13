@@ -15,17 +15,25 @@ const Logo = styled(Link)`
   color: #fff;
   padding-left: 1rem;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
   font-style: italic;
+
+  &:hover {
+    background: linear-gradient(-150deg, #d62121, #c72c2c, #3a1111);
+  }
 `;
 
 const NavItems = styled.div``;
 
 const NavbarLinks = styled(Link)`
   color: #fff;
-  padding-left: 1rem;
+  padding-left: 2rem;
   text-decoration: none;
+
+  &:hover {
+    background: linear-gradient(-150deg, #d62121, #c72c2c, #3a1111);
+  }
 `;
 
 const Header = () => {
@@ -34,9 +42,9 @@ const Header = () => {
       <Logo to="/">2021 Valentine Day</Logo>
       <NavItems>
         <NavbarLinks to="/">Home</NavbarLinks>
-        <NavbarLinks to="/plans">Plans</NavbarLinks>
-        <NavbarLinks to="/about">About</NavbarLinks>
-        <NavbarLinks to="/contact">Contact</NavbarLinks>
+        <NavbarLinks to="/reasonTwo">Reason Two</NavbarLinks>
+        <NavbarLinks to="/reasonThree">Reason Three</NavbarLinks>
+        <NavbarLinks to="/reasonFour">Reason Four</NavbarLinks>
       </NavItems>
     </Navbar>
   );
